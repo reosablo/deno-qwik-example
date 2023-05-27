@@ -1,6 +1,6 @@
 import { component$, useSignal, $ } from '@builder.io/qwik';
 import styles from './counter.module.css';
-import Gauge from '../gauge';
+import Gauge from '../gauge/index.tsx';
 
 export default component$(() => {
   const count = useSignal(70);
