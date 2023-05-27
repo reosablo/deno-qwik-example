@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["es2022", "DOM", "WebWorker", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@builder.io/qwik"
+  },
+  "include": ["src", "./*.d.ts"]
+}
